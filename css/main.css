@@ -1098,7 +1098,7 @@ header .top-bar {
 	display: block;
 	background: #000000;
 	opacity: 0.8;
-	min-width: 160px;
+	min-width: 180px;
 	min-height: 66px;
 	position: absolute;
 	left: 10px;
@@ -2213,7 +2213,9 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.7);
 }
 .project-content {
-	max-width: 1200px;
+	max-width: 500px;
+	max-height: 450px;
+	
 }
 .project-list {
 	margin-top: 1.2rem;
@@ -2233,6 +2235,9 @@ header .logo a {
 }
 .project-list h3 {
 	color: #FFFFFF;
+}
+.project-list h4 {
+	color: #69d850;
 }
 .project-list .desc {
 	color: rgba(255, 255, 255, 0.6);
@@ -2259,6 +2264,7 @@ header .logo a {
 .owl-theme .owl-controls .owl-page.active span {
 	background: #69d850;
 }
+
 
 
 /** 
@@ -2682,3 +2688,5 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
