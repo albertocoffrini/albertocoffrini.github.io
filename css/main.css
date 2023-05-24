@@ -1101,7 +1101,7 @@ header .top-bar {
 	min-width: 160px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 10px;
 	top: 0;
 }
 /* header .logo {
@@ -2179,7 +2179,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+#project {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2189,7 +2189,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#project .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2199,42 +2199,42 @@ header .logo a {
 	opacity: .9;
 }
 
-#services .section-intro {
+#project .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#project .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#project .section-intro h5 {
 	color: #69d850;
 }
-#services .section-intro p {
+#project .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.services-content {
+.project-content {
 	max-width: 1200px;
 }
-.services-list {
+.project-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.services-list .service {
+.project-list .service {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
-.services-list .icon {
+.project-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.services-list .icon i {
+.project-list .icon i {
 	font-size: 5.4rem;
 	color: #69d850;
 }
-.services-list h3 {
+.project-list h3 {
 	color: #FFFFFF;
 }
-.services-list .desc {
+.project-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
 
